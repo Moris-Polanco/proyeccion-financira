@@ -1,8 +1,8 @@
 import openai
 import streamlit as st
 
-# Inicialización de la API de OpenAI
-openai.api_key = "su_clave_API_de_OpenAI"
+# Accedemos a la clave de API de OpenAI a través de una variable de entorno
+openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 # Creación de la interfaz de usuario
 st.title("Proyección financiera para el negocio")
