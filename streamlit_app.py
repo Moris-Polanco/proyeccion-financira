@@ -29,4 +29,4 @@ def generar_estudio_factibilidad(descripcion, ubicacion, moneda):
 if st.button("Generar estudio de factibilidad"):
     estudio_factibilidad = generar_estudio_factibilidad(descripcion, ubicacion, moneda)
     st.header("Estudio de factibilidad")
-    st.write(estudio_factibilidad)
+    st.write(estudio_factibilidad) 
