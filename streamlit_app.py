@@ -1,6 +1,6 @@
 import openai
 import streamlit as st
-immport os
+import os
 
 # Accedemos a la clave de API de OpenAI a través de una variable de entorno
 openai.api_key = os.environ.get("OPENAI_API_KEY")
